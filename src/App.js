@@ -1,10 +1,12 @@
+import ExpenseItem from './components/ExpenseItem';
+
 function App() {
-  return (
-    <div>
-      <h2>Hello World!</h2>
-      <p>Jani Harju /VAMK BIT</p>
-    </div>
-  );
+    return (
+        <div>
+            <ExpenseItem></ExpenseItem>
+            <p>Jani Harju / VAMK / BIT</p>
+        </div>
+    );
 }
 
 export default App;
