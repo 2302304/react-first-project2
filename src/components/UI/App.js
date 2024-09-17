@@ -1,6 +1,10 @@
-import Expenses from './components/Expenses';
+import React from 'react';
 
-function App() {
+import Expenses from '../Expenses/Expenses';
+
+
+
+const App = () => {
   
   const expenses = [
     {
@@ -13,21 +17,22 @@ function App() {
       id: 'e2',
       title: 'New TV',
       amount: 799.49,
-      date: new Date('2023-01-12'),
+      date: new Date('2022-08-12'),
     },
     {
       id: 'e3',
       title: 'Car Insurance',
-      amount: 300.0,
+      amount: 300.00,
       date: new Date('2023-01-01'),
     },
     {
       id: 'e4',
       title: 'New Desk (Wooden)',
       amount: 450,
-      date: new Date('2022-05-12'),
+      date: new Date('2023-01-09'),
     },
   ];
+  
 
   return (
     <div>
